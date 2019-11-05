@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimatecreate.png'height='768' width='1536'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimateupdate.png'height='768' width='1536'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimateprint_PDF.png'height='768' width='1536'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimate_send_email.png'height='768' width='1536'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117842" started-at="2019-11-02T12:15:11Z" finished-at="2019-11-02T12:17:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117842" started-at="2019-11-02T12:15:11Z" finished-at="2019-11-02T12:17:09Z">
+      <class name="com.estimate.Estimate_create">
+        <test-method status="PASS" signature="UserLogin()[pri:0, instance:com.estimate.Estimate_create@4f2b503c]" name="UserLogin" is-config="true" duration-ms="9511" started-at="2019-11-02T12:15:11Z" finished-at="2019-11-02T12:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="PASS" signature="Estimatecreate()[pri:0, instance:com.estimate.Estimate_create@4f2b503c]" name="Estimatecreate" duration-ms="40703" started-at="2019-11-02T12:15:21Z" finished-at="2019-11-02T12:16:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimatecreate.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Estimatecreate -->
+        <test-method status="PASS" signature="Estimateupdate()[pri:2, instance:com.estimate.Estimate_create@4f2b503c]" name="Estimateupdate" duration-ms="16811" started-at="2019-11-02T12:16:02Z" finished-at="2019-11-02T12:16:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimateupdate.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Estimateupdate -->
+        <test-method status="PASS" signature="Estimateprint_PDF()[pri:3, instance:com.estimate.Estimate_create@4f2b503c]" name="Estimateprint_PDF" duration-ms="14028" started-at="2019-11-02T12:16:18Z" finished-at="2019-11-02T12:16:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimateprint_PDF.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Estimateprint_PDF -->
+        <test-method status="PASS" signature="Estimate_send_email()[pri:4, instance:com.estimate.Estimate_create@4f2b503c]" name="Estimate_send_email" duration-ms="36757" started-at="2019-11-02T12:16:32Z" finished-at="2019-11-02T12:17:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/test-output/SuiteEstimate_send_email.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Estimate_send_email -->
+      </class> <!-- com.estimate.Estimate_create -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
