@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_created.png'height='768' width='1536'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_Updated.png'height='768' width='1536'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_send.png'height='768' width='1536'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133546" started-at="2019-11-07T23:36:58Z" finished-at="2019-11-07T23:39:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133546" started-at="2019-11-07T23:36:58Z" finished-at="2019-11-07T23:39:12Z">
+      <class name="com.invoice.invoice_create">
+        <test-method status="PASS" signature="UserLogin()[pri:0, instance:com.invoice.invoice_create@4f2b503c]" name="UserLogin" is-config="true" duration-ms="9001" started-at="2019-11-07T23:36:58Z" finished-at="2019-11-07T23:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="PASS" signature="invoice_create()[pri:0, instance:com.invoice.invoice_create@4f2b503c]" name="invoice_create" duration-ms="56915" started-at="2019-11-07T23:37:07Z" finished-at="2019-11-07T23:38:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_created.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invoice_create -->
+        <test-method status="PASS" signature="Invoice_update()[pri:2, instance:com.invoice.invoice_create@4f2b503c]" name="Invoice_update" duration-ms="33333" started-at="2019-11-07T23:38:04Z" finished-at="2019-11-07T23:38:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_Updated.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Invoice_update -->
+        <test-method status="PASS" signature="Invoice_send()[pri:3, instance:com.invoice.invoice_create@4f2b503c]" name="Invoice_send" duration-ms="34269" started-at="2019-11-07T23:38:38Z" finished-at="2019-11-07T23:39:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/home/grajan/Guna/Estimate/invoice_test-output/SuiteInvoice_send.png'height='768' width='1536'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Invoice_send -->
+      </class> <!-- com.invoice.invoice_create -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
