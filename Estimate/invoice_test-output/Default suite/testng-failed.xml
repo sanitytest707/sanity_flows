@@ -5,8 +5,8 @@
     <classes>
       <class name="com.invoice.invoice_create">
         <methods>
+          <include name="Invoice_send"/>
           <include name="UserLogin"/>
-          <include name="invoice_create"/>
         </methods>
       </class> <!-- com.invoice.invoice_create -->
     </classes>
